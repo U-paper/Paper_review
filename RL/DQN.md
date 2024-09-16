@@ -62,6 +62,7 @@
 - 우리의 아웃풋은 input state에 대한 개별 액션으로부터 예측된 Q-value에 대응
 - 이러한 아키텍처를 활용하는 것의 장점은 단 하나의 forward pass로 구성된 신경망으로 주어진 state에 대해 모든 가능한 액션의 Q-value를 계산할 수 있는 능력
 - Architecture
+
 ![image](https://github.com/user-attachments/assets/c2f8694f-08f3-4d0b-855f-6f82b830ea09)
 
 # 5. Experiments
