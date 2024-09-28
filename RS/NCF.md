@@ -38,7 +38,8 @@ M, N이 각각 user와 item 개수라면 user-item 행렬 Y.
 
 ###  2.2 Matrix Factorization
 - MF를 이용하는 것으로 행렬 Y를 보다 저차원 행렬로 분해하는 것.
-
+- User-item InteractionMatrix의 한계점을 지적
+  
 ###  2.3 The limitation of Matrix Factorization
 - 내적과 같은 linear 모델은 user와 item 간 복잡한 관계를 표현하는데 한계가 있다함.  
 ![image](https://github.com/user-attachments/assets/2e2d3770-52d2-4c42-81ef-51639c87d95f)
@@ -57,13 +58,26 @@ M, N이 각각 user와 item 개수라면 user-item 행렬 Y.
 - linear하고 fixed한 특징으로 복잡한 관계 표현이 어려움
 ### +. Multi-Layer Perceptron (MLP)
 - non-linea하고 flexible해서 보다 복잡한 관계 표현 용이
-
+- GMR보다 더 간단하게 user-item interaction 학습 가능
+  
 ![image](https://github.com/user-attachments/assets/91295d38-0c3d-4b99-860f-775d2451e911)
 - 이로 GMF와 MLP가 통합해 장점을 살리고 단점을 보완할 수 있다한다.
 - 이 모델은 user-item간의 상호 관계를 표현하기 위해 MF의 linearity 와 MLP의 non-linearity를 결합한 것이 특징이며 이 모델을 일컬어 neural matrix factorization
 
 # 4. Experiments
-- 
+- RQ1 : 제안한 NCF 모델이 다른 SOTA implicit collaborative filtering 방법들보다 좋은 성능을 내는가?
+- RQ2 : 제안한 최적화 프레임워크 (log loss with negative sampling)가 효과적인가?
+- RQ3 : deep neural network 구조가 user-item 관계를 학습함에 있어서 효과적인가?
+
+![image](https://github.com/user-attachments/assets/2748e8ba-8573-4630-a386-a5c855a6ef9f)
+(performance comparison (RQ1))
+![image](https://github.com/user-attachments/assets/b8d9c0ef-401c-4166-a31a-aa7b4f4dd138)
+(log loss with negative sampling (RQ2))
+![image](https://github.com/user-attachments/assets/7d02f64f-7017-4b02-a80e-1e624ed60f37)
+(is deep learning helpful (RQ3))
 
 # 5. Conclusion
-- 
+- General Framework NCF 제안
+- Linear 모델 한계를 NN 사용해서 해결
+- GMR와 MLP 장점 합해 NeuralMF 제안했으며, 성능 향상에 기여
+- Collaborative Filtering에 집중 
