@@ -69,10 +69,12 @@ YOLO는 CNN의 구조로 디자인 되어있다.
 #### **4.2 Analysis**
 
 <img width="691" alt="Fast R-CNN" src="https://github.com/user-attachments/assets/bbbeee3c-0c59-439e-bf58-a7059c260305">
+
 ￼
 #### **4. 5. Generalizability: Person Detection in Artwork**
 
 YOLO 훈련 단계에서 접하지 못한 새로운 이미지도 잘 검출한다.
+
 
 ---
 
