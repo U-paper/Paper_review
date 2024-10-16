@@ -1,4 +1,4 @@
-# YOLO
+<img width="817" alt="스크린샷 2024-10-16 오후 4 56 32" src="https://github.com/user-attachments/assets/9ac8e805-9a94-49d8-8429-e3b10c407943"># YOLO
 #### **"You Only Look Once: Unified, Real-Time Object Detection"** 논문은 You Only Look Once의 의미인 한 번만 봐도 된다는 의미도 있다. 속도가 빠르다는 장점도 있다. YOLO의 장점, detection 방식 등을 소개한다. 
 ---
 
@@ -68,8 +68,8 @@ YOLO는 CNN의 구조로 디자인 되어있다.
 ￼
 #### **4.2 Analysis**
 
+<img width="691" alt="Fast R-CNN" src="https://github.com/user-attachments/assets/bbbeee3c-0c59-439e-bf58-a7059c260305">
 ￼
-
 #### **4. 5. Generalizability: Person Detection in Artwork**
 
 YOLO 훈련 단계에서 접하지 못한 새로운 이미지도 잘 검출한다.
@@ -79,7 +79,9 @@ YOLO 훈련 단계에서 접하지 못한 새로운 이미지도 잘 검출한�
 ### **5. Real-Time Detection In The Wild**
 
 YOLO는 컴퓨터 비전 애플리케이션에 활용할 수 있는 빠르고 정확한 객체 검출 모델이다.
-￼
+
+￼<img width="817" alt="스크린샷 2024-10-16 오후 4 56 32" src="https://github.com/user-attachments/assets/53fd78af-faac-4d40-b604-52ec009ce790">
+
 (실수도 있지만, 잘 예측하는 편)
 
 ---
