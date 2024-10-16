@@ -1,4 +1,4 @@
-<img width="817" alt="스크린샷 2024-10-16 오후 4 56 32" src="https://github.com/user-attachments/assets/9ac8e805-9a94-49d8-8429-e3b10c407943"># YOLO
+# YOLO
 #### **"You Only Look Once: Unified, Real-Time Object Detection"** 논문은 You Only Look Once의 의미인 한 번만 봐도 된다는 의미도 있다. 속도가 빠르다는 장점도 있다. YOLO의 장점, detection 방식 등을 소개한다. 
 ---
 
